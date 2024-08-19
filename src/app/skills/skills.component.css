@@ -1,0 +1,57 @@
+.card-title {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #2575fc; /* Matching primary color */
+  margin-bottom: 20px;
+  text-align: center; /* Center the title */
+}
+
+.skill-item {
+  background: #f4f7fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start; /* Align items to start for better wrapping */
+  justify-content: flex-start; /* Start content from the left */
+  font-size: 1.1rem;
+  color: #333;
+  padding: 15px;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Hover effect */
+  width: 100%; /* Ensure full width within column */
+  height: auto; /* Allow height to adjust based on content */
+  flex-wrap: wrap; /* Allow content to wrap */
+}
+
+.skill-key {
+  width: 25%; /* 1/4th of the card width */
+  font-weight: bold;
+  color: #2575fc; /* Highlight color */
+}
+
+.skill-values {
+  width: 75%; /* 3/4th of the card width */
+  display: flex;
+  flex-wrap: wrap; /* Allow values to wrap within the available space */
+  gap: 5px; /* Space between capsules */
+}
+
+.skill-values >  .capsule {
+  background-color: #d3d3d3; /* Silver color for individual capsules */
+  border-radius: 50px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  display: inline-block;
+  font-weight: bold;
+  color: #333;
+  transition: background-color 0.3s ease; /* Smooth background change */
+  white-space: nowrap; /* Prevent capsule text from wrapping inside */
+}
+
+.skill-values > .capsule:hover {
+  background-color: #b0b0b0; /* Darker silver on hover */
+}
+
+.skill-item:hover {
+  transform: scale(1.05); /* Pop effect on hover */
+  background-color: #b0b0b0; /* Darker silver on hover */
+}

@@ -1,0 +1,51 @@
+.card-title {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #2575fc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-item {
+  background: #f4f7fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.1rem;
+  color: #333;
+  padding: 15px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  flex-wrap: wrap;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  background-color: #e0e0e0;
+}
+
+.project-item > i {
+  margin-right: 15px;
+  color: #6a11cb;
+}
+
+.project-details >  h6 {
+  font-weight: bold;
+  color: #2575fc;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project-description > li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.bold {
+  font-weight: bold;
+  color: #6a11cb;
+}

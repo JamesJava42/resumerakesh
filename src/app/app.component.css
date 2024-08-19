@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  padding-top: 80px; /* Adjust for fixed header */
+  padding-bottom: 70px; /* Adjust for fixed footer */
+  min-height: 100vh; /* Ensure full height */
+  background-color: #f4f7fa; /* Light background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1200px; /* Increased max-width for more space */
+  margin: auto;
+  padding: 20px;
+}
