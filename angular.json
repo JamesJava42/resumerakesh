@@ -13,8 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "extractLicenses": true,
-            "outputPath": "dist/resume_developer/docs",
+            "outputPath": "docs/resume_developer",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -41,7 +40,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/resume_developer/docs/browser/"
+              "baseHref": "/resume_developer/"
             },
             "development": {
               "optimization": false,
