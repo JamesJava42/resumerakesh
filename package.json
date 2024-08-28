@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-both": "ng build --configuration production --output-path=docs/resume_developer --base-href \"/ResumeFullStack/\" && cp -R docs/resume_developer dist/resume_developer"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +20,7 @@
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
     "@fortawesome/fontawesome-free": "^6.6.0",
+    "@npmcli/package-json": "^5.2.0",
     "bootstrap": "^5.3.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
