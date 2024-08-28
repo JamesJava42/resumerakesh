@@ -1,0 +1,35 @@
+.footer {
+  background: linear-gradient(45deg, #2575fc, #6a11cb); /* Matching gradient */
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1030;
+  box-shadow: 0 -4px 6px -6px #222; /* Subtle shadow */
+}
+
+.footer > .row {
+  justify-content: center;
+}
+
+.footer > a {
+  color: #ffffff !important; /* White text color */
+  font-size: 1rem;
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+  border-radius: 50px; /* Capsule shape */
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center; /* Align icons and text vertically */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  background-color: rgba(255, 255, 255, 0.4); /* Lighter on hover */
+  transform: scale(1.1); /* Pop effect */
+}
+
+.footer > i {
+  margin-right: 8px; /* Space between the icon and the text */
+  font-size: 1.2rem; /* Slightly larger icon for visibility */
+}
