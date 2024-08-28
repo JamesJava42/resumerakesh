@@ -40,7 +40,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/resume_developer/"
+              "baseHref": "/"
             },
             "development": {
               "optimization": false,

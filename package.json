@@ -7,7 +7,7 @@
   "build": "ng build",
   "watch": "ng build --watch --configuration development",
   "test": "ng test",
-  "build-both": "ng build --configuration production --output-path=docs/resume_developer --base-href \"/ResumeFullStack/\" && cp -R docs/resume_developer dist/resume_developer",
+  "build-both": "ng build --configuration production --output-path=docs/resume_developer --base-href \"/\" && cp -R docs/resume_developer dist/resume_developer",
   "predeploy": "rm -rf node_modules/.cache/gh-pages/",
   "deploy": "npm run build-both && npx gh-pages -d docs/resume_developer"
  },
